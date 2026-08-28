@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Problems from './components/Problems';
@@ -9,16 +9,11 @@ import Footer from './components/Footer';
 import './index.css';
 
 export default function App() {
-  
-  // Inicializa o estado lendo o localStorage apenas 1 vez no carregamento inicial
-  
   const [evaluations, setEvaluations] = useState(() => {
     const saved = localStorage.getItem('jovi_evaluations');
     return saved ? JSON.parse(saved) : [];
   });
 
-  // Estado derivado: calcula as estatísticas automaticamente sempre que "evaluations" muda
-  
   const stats = {
     average: evaluations.length
       ? Math.round((evaluations.reduce((acc, curr) => acc + curr.score, 0) / evaluations.length) * 10) / 10

@@ -11,7 +11,7 @@ export default function Uses() {
         <article className="uso-bloco">
           <div className="uso-icone"></div>
           <h3>Estudo e Pesquisa</h3>
-          <p>Do quadro da sala ao experimento de laboratório — nenhuma informação se perde por culpa da câmera.</p>
+          <p>Do quadro da sala ao experimento de laboratório, nenhuma informação se perde por culpa da câmera.</p>
           <ul className="uso-lista">
             <li>Fotografe quadros com nitidez total, mesmo de longe</li>
             <li>Digitalize livros e provas com correção automática de perspectiva</li>
