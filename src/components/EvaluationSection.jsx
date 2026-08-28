@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-export default function EvaluationSection({ stats, evaluations, onAddEvaluation }) {
+export default function EvaluationSection({stats, evaluations, onAddEvaluation}) {
   const [score, setScore] = useState(5);
   const [comment, setComment] = useState('');
 
@@ -17,7 +17,7 @@ export default function EvaluationSection({ stats, evaluations, onAddEvaluation 
         <h2>Avaliações do Protótipo</h2>
         
         {/* Painel de Estatísticas usando Math */}
-        
+
         <div className="stats-linha">
           <div className="stat-item">
             <div className="stat-numero">{stats.average} <span>/ 5</span></div>
