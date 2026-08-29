@@ -196,7 +196,7 @@ nav {
 .card-specs h3 { font-size: 18px; color: var(--branco); margin-bottom: 24px; }
 .card-specs .celular { width: 280px; height: 500px; background-color: #0a1628; border-radius: 40px; border: 3.5px solid rgba(55, 138, 221, 0.6); display: flex; flex-direction: column; align-items: center; padding: 18px 14px; gap: 12px; }
 .celular-topo { display: flex; justify-content: space-between; width: 100%; color: rgba(255, 255, 255, 0.6); font-size: 10px; }
-.viewfinder { width: 100%; flex: 1; background-color: #1a2a40; border-radius: 12px; }
+.viewfinder { width: 100%; flex: 1; background-color: #1a2a40; border-radius: 12px; background-image: url(./assets/img1.png);}
 .celular-base { display: flex; align-items: center; justify-content: space-around; width: 100%; }
 .icone-cam { width: 28px; height: 28px; border-radius: 6px; background-color: rgba(255, 255, 255, 0.1); }
 .botao-foto { width: 44px; height: 44px; border-radius: 50%; background-color: var(--branco); border: 3px solid rgba(55, 138, 221, 0.5); }

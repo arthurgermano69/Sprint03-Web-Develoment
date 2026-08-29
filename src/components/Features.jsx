@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <section className="secao-funcionalidades" id="funcionalidades">
       <div className="secao-titulo">
-        <span className="label">Solução JoviVisionCore</span>
+        <span className="label">Solução Jovi Vision Core</span>
         <h2>Tecnologia pensada para melhoria acadêmica.</h2>
       </div>
 
